@@ -6,10 +6,10 @@
   "dependencies": {
     "json-server": "^0.16.3"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json"
+    "watch": "json-server --watch db.json",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
